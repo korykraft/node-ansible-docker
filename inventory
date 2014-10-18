@@ -1,1 +1,5 @@
-node-service  ansible_ssh_host=10.10.1.10
+[node-service]
+node-service-01  ansible_ssh_host=10.10.1.10
+
+[redis]
+redis-01  ansible_ssh_host=10.10.1.11
